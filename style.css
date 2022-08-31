@@ -188,7 +188,7 @@ footer{
   border-radius: 0px 0px 20px 20px;
 }
 
-footer .button{
+footer button{
   height: 5.5rem;
   background: #FF5374;
   border-style: none;
@@ -201,6 +201,10 @@ footer .button{
   color: white;
 }
 
-footer .button:hover{
+footer button:hover{
   background: #bc4059;
+}
+
+input:invalid {
+  border: 1px solid #ec9d9d;
 }
